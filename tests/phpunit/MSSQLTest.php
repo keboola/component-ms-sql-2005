@@ -8,7 +8,6 @@ use Keboola\Csv\CsvReader;
 use Keboola\DbExtractor\Adapter\Exception\UserRetriedException;
 use Keboola\DbExtractor\Exception\UserException;
 use Keboola\DbExtractor\Extractor\MSSQLPdoConnection;
-use Keboola\DbExtractor\FunctionalTests\PdoTestConnection;
 use Keboola\DbExtractor\Metadata\MssqlManifestSerializer;
 use Keboola\DbExtractor\Metadata\MssqlMetadataProvider;
 use Keboola\DbExtractor\MSSQLApplication;
@@ -42,7 +41,7 @@ class MSSQLTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->connection = PdoTestConnection::createConnection();
+        $this->connection = MSSQLPdoTestConnection::createConnection();
         $this->removeAllTables();
         $this->closeSshTunnels();
     }
