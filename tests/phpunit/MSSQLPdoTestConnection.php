@@ -61,7 +61,7 @@ class MSSQLPdoTestConnection
 
         $pdo->exec('USE master');
         $pdo->exec(sprintf("
-            IF NOT EXISTS(select * from sys.databases where name='%s') 
+            IF NOT EXISTS(select * from master.dbo.sysdatabases where name='%s') 
             CREATE DATABASE %s
         ", $dbConfig->getDatabase(), $dbConfig->getDatabase()));
         $pdo->exec(sprintf('USE %s', $dbConfig->getDatabase()));

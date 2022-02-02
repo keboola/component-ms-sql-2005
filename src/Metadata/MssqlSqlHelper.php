@@ -18,7 +18,7 @@ class MssqlSqlHelper
         $sql = [];
         $sql[] = "
             SELECT [ist].* FROM [INFORMATION_SCHEMA].[TABLES] as [ist]
-            INNER JOIN [sys].[objects] AS [so] ON [ist].[TABLE_NAME] = [so].[name]
+            INNER JOIN [dbo].[sysobjects] AS [so] ON [ist].[TABLE_NAME] = [so].[name]
             WHERE ([so].[type]='U' OR [so].[type]='V')
         ";
 
@@ -172,9 +172,9 @@ class MssqlSqlHelper
 
         if ($data['NUMERIC_PRECISION'] > 0) {
             if ($data['NUMERIC_SCALE'] > 0) {
-                return $data['NUMERIC_PRECISION'] . ',' . $data['NUMERIC_SCALE'];
+                return strval($data['NUMERIC_PRECISION']) . ',' . strval($data['NUMERIC_SCALE']);
             } else {
-                return $data['NUMERIC_PRECISION'];
+                return strval($data['NUMERIC_PRECISION']);
             }
         }
 
@@ -184,13 +184,13 @@ class MssqlSqlHelper
                 if ($data['DATA_TYPE'] === 'text') {
                     return null;
                 } else {
-                    return $data['CHARACTER_MAXIMUM_LENGTH'];
+                    return strval($data['CHARACTER_MAXIMUM_LENGTH']);
                 }
             case '-1':
                 // this is returned for max, ex: nvarchar(max), we will treat it as unspecified
                 return null;
             default:
-                return $data['CHARACTER_MAXIMUM_LENGTH'];
+                return strval($data['CHARACTER_MAXIMUM_LENGTH']);
         }
     }
 
