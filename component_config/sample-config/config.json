@@ -1,0 +1,23 @@
+{
+    "parameters":   {
+        "db": {
+            "driver": "mssql",
+            "host": "000.000.000.0000",
+            "port": "1433",
+            "database": "test",
+            "user": "sa",
+            "#password": ""
+        },
+        "tables": [
+            {
+                "name": "employees",
+                "query": "SELECT * FROM employees",
+                "outputTable": "in.c-main.employees",
+                "incremental": false,
+                "enabled": true,
+                "primaryKey": null
+            }
+        ]
+    },
+    "image_parameters": []
+}
