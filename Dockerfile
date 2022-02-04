@@ -11,9 +11,9 @@ COPY docker/php-prod.ini /usr/local/etc/php/php.ini
 COPY docker/composer-install.sh /tmp/composer-install.sh
 
 # Xdebug
-RUN pecl install xdebug \
-  && docker-php-ext-enable xdebug
-COPY docker/xdebug/xdebug.ini.dist /usr/local/etc/php/conf.d/xdebug.ini
+#RUN pecl install xdebug \
+#  && docker-php-ext-enable xdebug
+#COPY docker/xdebug/xdebug.ini.dist /usr/local/etc/php/conf.d/xdebug.ini
 
 # Install dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
