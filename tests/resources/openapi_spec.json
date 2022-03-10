@@ -1,0 +1,174 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "SF Enterprise Data Connector",
+    "description": "Public endpoints for SF EDC",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Inferred Url"
+    }
+  ],
+  "tags": [
+    {
+      "name": "structure-controller",
+      "description": "Structure Controller"
+    }
+  ],
+  "paths": {
+    "/v1/edc/dataextension": {
+      "post": {
+        "tags": [
+          "structure-controller"
+        ],
+        "summary": "validateAndCreateOrUpdate",
+        "operationId": "validateAndCreateOrUpdateUsingPOST",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DataExtensionDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/StructureSynchronizationResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Column": {
+        "title": "Column",
+        "required": [
+          "dataType"
+        ],
+        "type": "object",
+        "properties": {
+          "columnName": {
+            "type": "string"
+          },
+          "dataLength": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataPrecision": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataScale": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataType": {
+            "type": "string",
+            "enum": [
+              "BASE_16_ENCRYPTED",
+              "BASE_16_ENCRYPTED_EMAIL",
+              "BOOLEAN",
+              "DATE",
+              "DECIMAL",
+              "EMAIL_ADDRESS",
+              "LOCALE",
+              "NUMBER",
+              "PHONE",
+              "TEXT"
+            ]
+          },
+          "primaryKey": {
+            "type": "boolean"
+          }
+        }
+      },
+      "DataExtensionDto": {
+        "title": "DataExtensionDto",
+        "required": [
+          "dataAction"
+        ],
+        "type": "object",
+        "properties": {
+          "columns": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Column"
+            }
+          },
+          "dataAction": {
+            "type": "string",
+            "enum": [
+              "ADD",
+              "ADD_UPDATE",
+              "OVERWRITE",
+              "UPDATE"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "retentionPolicy": {
+            "$ref": "#/components/schemas/RetentionPolicy"
+          },
+          "tableFolder": {
+            "type": "string"
+          },
+          "tableName": {
+            "type": "string"
+          }
+        }
+      },
+      "RetentionPolicy": {
+        "title": "RetentionPolicy",
+        "required": [
+          "dataRetentionPeriod"
+        ],
+        "type": "object",
+        "properties": {
+          "dataRetentionLength": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "dataRetentionPeriod": {
+            "type": "string",
+            "enum": [
+              "DAYS",
+              "MONTHS",
+              "WEEKS",
+              "YEARS"
+            ]
+          },
+          "deleteAtEndOfRetentionPeriod": {
+            "type": "boolean"
+          },
+          "resetRetentionPeriodOnImport": {
+            "type": "boolean"
+          },
+          "rowBasedRetention": {
+            "type": "boolean"
+          }
+        }
+      },
+      "StructureSynchronizationResponse": {
+        "title": "StructureSynchronizationResponse",
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

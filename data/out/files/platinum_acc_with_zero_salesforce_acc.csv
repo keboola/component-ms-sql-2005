@@ -1,0 +1,39 @@
+﻿platinum_company_id,Company,Global_Account_Name,Platinum_Account_Region,Global_Account_ID_SFDC,MDCP_SFDC,Industy,COUNT(SF.""ID"")
+333a12fa84e0352f64f4743e4e0458f6,GHC - California SW (includes CalWIN),CA-SW SLED GHHS - US TOP,Americas,6440885700,23671247,Healthcare & Life Sciences,0
+e9e325ffa16417038cdfb53cc4cf60f7,GHC - Pennsylvania Department of Human Services,PA SLED GHHS - US TOP,Americas,337608,22235527,Healthcare & Life Sciences,0
+0a6aff1c0077b160aef65fe27cb19a19,GHC - Louisiana Department of Health,LA SLED GHHS - US TOP,Americas,6440885676,131872121,Healthcare & Life Sciences,0
+55a6b337f3b4167bcff8077b5e1e159e,GHC - Massachusetts Health & Human Services,MA SLED GHHS - US TOP,Americas,6169860818,99054115,Healthcare & Life Sciences,0
+0bec0ce6d1b6eafe9f3f62c1551ae50f,GHC - Oklahoma Health Care Authority ,OK SLED GHHS - US TOP,Americas,6169860819,634070849,Healthcare & Life Sciences,0
+31044566ba05838091f9b464d2903bb7,General Electric  ,GENERAL ELECTRIC COMPANY - US (73226),Americas,48724732,001367960,Manufacturing,0
+d35240383e94c59599c9b7be325cd3c1,GHC - Rhode Island Department of Human Services,RI SLED GHHS - US TOP,Americas,6440885691,99906212,Healthcare & Life Sciences,0
+58fc55094a720c436ac50feb9b204cee,Lockheed Martin Corporation,LOCKHEED MARTIN CORPORATION - WW,UKIIMEA,466576,,Manufacturing - Aerospace & Defence,0
+f46d20f06017759eff57a3c4618345ce,MTCNovo,MTCNOVO - WW,UKIIMEA,6000011509,671311633,Public Sector,0
+751001c93a0317a5977328f47de93a2b,GHC - Georgia Department of Community Health ,GA SLED GHHS - US TOP,Americas,6000010264,32975630,Healthcare & Life Sciences,0
+23ba944749fcbbfe7d0141944da85a7b,GHC - Colorado Department of Health Care Policy & Financing,CO SLED GHHS - US TOP,Americas,6000025600,50771876,Healthcare & Life Sciences,0
+98febcebab2e5f1a9801b2402bc5bf39,GHC - New Jersey Department of Human Services,NJ SLED GHHS - US TOP,Americas,6440885684,77027820,Healthcare & Life Sciences,0
+34715bd9adaca8aa5cc13ba551f0e7c5,State Bank of India,STATE BANK OF INDIA - WW,Asia,472363,138337080,Banking & Capital Markets,0
+32858aea98e01d363652c463cbd279b4,GHC - Mississippi Department of Health,MS SLED GHHS - US TOP,Americas,6440885679,6000010645,Healthcare & Life Sciences,0
+d19a3b23f5a25254996485350b776991,GHC - West Virginia Department of Health & Human Resources ,WV SLED GHHS - US TOP,Americas,6440885699,169873693,Healthcare & Life Sciences,0
+3e4c79f9f0148ee3d2efbfba6e172192,General Dynamics,GENERAL DYNAMICS CORPORATION - US (73224),Americas,6000254606,001381284,Manufacturing - Aerospace & Defence,0
+67b43198baac58416e3e2f1345f8235c,Reynolds American Inc.,REYNOLDS AMERICAN INC - WW,Americas,337955,59925098,Consumer Industries & Retail,0
+8687249a9d81442f04ed46d5b0883b06,GHC - Nevada Department of Health & Human Services,NV SLED GHHS - US TOP,Americas,6440885686,131797279,Healthcare & Life Sciences,0
+0eda73bef0fea2fd35e04519cf21b995,GHC - Alabama Medicaid Agency,AL SLED GHHS - US TOP,Americas,6163909974,57206670,Healthcare & Life Sciences,0
+c36dbbe17d08354aab17bb95ed7ecc22,GHC - Indiana Family and Social Services Administration,IN SLED GHHS - US TOP,Americas,6440885674,133567779,Healthcare & Life Sciences,0
+c84db5a9ece6bc26ff8a6d2def1f1ac8,GHC - Kentucky Cabinet for Health & Family Services,KY SLED GHHS - US TOP,Americas,6169860817,137237314,Healthcare & Life Sciences,0
+127ce010caec518782156d40ced53933,INAIL,ISTITUTI PREVIDENZIALI - IT,South Europe,336231,6557093,Public Sector,0
+4dfa99644b3e1c6a47ecb26b67f7fb7f,GHC - TennCare ,TN SLED GHHS - US TOP,Americas,6168848436,166117524,Healthcare & Life Sciences,0
+cc0e5194c1f17557500860f5fa1c5041,GHC - Maine Department of Health & Human Services,ME SLED GHHS - US TOP,Americas,6150761098,60449257,Healthcare & Life Sciences,0
+4f7421749fc915f95bbcbe2e29aea0a1,GHC - Idaho Department of Health & Welfare,ID SLED GHHS - US TOP,Americas,6440885672,109291282,Healthcare & Life Sciences,0
+3d80873a9f605f91618096a0666d3d64,GHC - Arkansas Department of Health & Human Services,AR SLED GHHS - US TOP,Americas,6000025597,123020188,Healthcare & Life Sciences,0
+375c7d9b6c9b3fbd41caca4bc38c9cb3,GHC - Puerto Rico Department of Health,PR SLED GHHS - US TOP,Americas,6440885690,13387707,Healthcare & Life Sciences,0
+7ea62726650b2378a35e69c5b4844c51,GHC - California NW (includes MediCal),CA-NW SLED GHHS - US TOP,Americas,6440885668,6000023190,Healthcare & Life Sciences,0
+97d127179bdac0b6197ccf10062f65e5,GHC - Wisconsin Department of Health Services (Medicaid),WI SLED GHHS - US TOP,Americas,6440885698,84825892,Healthcare & Life Sciences,0
+17667a3fb323c8250c91ecc83de88672,GHC - Connecticut Department of Social Services,CT SLED GHHS - US TOP,Americas,338751,25188998,Healthcare & Life Sciences,0
+337d5710e45ab7d908f95b8fb741f7aa,GHC - Oregon Health Authority ,OR SLED GHHS - US TOP,Americas,6440885689,99532649,Healthcare & Life Sciences,0
+c0ec2486eb95b09bdae9622cf808d77d,GHC - Delaware Department of Health & Social Services,DE SLED GHHS - US TOP,Americas,6441939171,109223184,Healthcare & Life Sciences,0
+e5bf7e1a1482b7072ba5ced7322a228e,GHC - Kansas Department of Health and Environment Division of Health Care Finance ,KS SLED GHHS - US TOP,Americas,6440885675,57708533,Healthcare & Life Sciences,0
+bab52f0c76f6776c184455c29820dced,Province of British Columbia ,PROVINCE OF BC (FRAGMENT),Americas,494436,"145149655, 145131225",Public Sector,0
+76a85eeb9af4531065f0c2451d4b48d0,GHC - Ohio Department of Health (Medicaid),OH SLED GHHS - US TOP,Americas,6440885688,164142204,Healthcare & Life Sciences,0
+7ebbd6e4368d20e6e03c4b2cb7c0741b,GHC - Florida Department of Families & Children,FL SLED GHHS - US TOP,Americas,338752,9353177,Healthcare & Life Sciences,0
+d56ae81beeaecfe1a4fbd486d80de8cb,Alstom,ALSTOM - FR (230109),South Europe,174521761,576400154,Manufacturing,0
+065f672e4cb06b7c65c29905f3102cbd,Ford Motor,FORD MOTOR COMPANY - US (71226),Americas,164129985,001344746,Manufacturing - Automotive,0

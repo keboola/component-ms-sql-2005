@@ -1,1 +1,1 @@
-MSSQL desc
+EDC Validator short description

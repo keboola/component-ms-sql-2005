@@ -1,0 +1,37 @@
+{
+    "id": "in.c-IN-EDC_TESTING.EDS_STATUS_LOG",
+    "uri": "https:\/\/connection.keboola.com\/v2\/storage\/tables\/in.c-IN-EDC_TESTING.EDS_STATUS_LOG",
+    "name": "EDS_STATUS_LOG",
+    "primary_key": [
+        "LOG_UUID"
+    ],
+    "distribution_key": [],
+    "created": "2022-03-01T09:04:39+0100",
+    "last_change_date": "2022-03-01T09:49:40+0100",
+    "last_import_date": "2022-03-01T09:49:40+0100",
+    "columns": [
+        "LOG_UUID",
+        "DE_GROUP",
+        "DE_NAME",
+        "CSV_FILE_NAME",
+        "ZIP_FILE_NAME",
+        "JSON_FILE_NAME",
+        "ROW_CNT",
+        "STATUS",
+        "RETURN_CODE",
+        "LAST_CHANGE_DATETIME"
+    ],
+    "metadata": [],
+    "column_metadata": {
+        "LOG_UUID": [],
+        "DE_GROUP": [],
+        "DE_NAME": [],
+        "CSV_FILE_NAME": [],
+        "ZIP_FILE_NAME": [],
+        "JSON_FILE_NAME": [],
+        "ROW_CNT": [],
+        "STATUS": [],
+        "RETURN_CODE": [],
+        "LAST_CHANGE_DATETIME": []
+    }
+}

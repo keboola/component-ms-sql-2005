@@ -1,1 +1,1 @@
-MSSQL long desc
+EDC Validator long description

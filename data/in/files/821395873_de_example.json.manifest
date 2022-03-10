@@ -1,0 +1,13 @@
+{
+    "id": 821395873,
+    "name": "de_example.json",
+    "created": "2022-03-02T08:52:46+0100",
+    "is_public": false,
+    "is_encrypted": true,
+    "is_sliced": false,
+    "tags": [
+        "edc_extension_test"
+    ],
+    "max_age_days": 0,
+    "size_bytes": 508
+}

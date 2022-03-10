@@ -1,0 +1,23 @@
+{
+  "columns": [
+    {
+      "columnName": "string",
+      "dataLength": 0,
+      "dataPrecision": 0,
+      "dataScale": 0,
+      "dataType": "BASE_16_ENCRYPTED",
+      "primaryKey": true
+    }
+  ],
+  "dataAction": "ADD",
+  "description": "string",
+  "retentionPolicy": {
+    "dataRetentionLength": 0,
+    "dataRetentionPeriod": "DAYS",
+    "deleteAtEndOfRetentionPeriod": true,
+    "resetRetentionPeriodOnImport": true,
+    "rowBasedRetention": true
+  },
+  "tableFolder": "string",
+  "tableName": "string"
+}

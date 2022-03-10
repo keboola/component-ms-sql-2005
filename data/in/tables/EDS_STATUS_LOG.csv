@@ -1,0 +1,3 @@
+"LOG_UUID","DE_GROUP","DE_NAME","CSV_FILE_NAME","ZIP_FILE_NAME","JSON_FILE_NAME","ROW_CNT","STATUS","RETURN_CODE","LAST_CHANGE_DATETIME"
+"Aaaaa","aaa","test1","platinum_acc_with_zero_salesforce_acc.csv","platinum_acc_with_zero_salesforce_acc.csv","de_example.json","10","CREATED","",""
+"asdasd","aaa","test1","platinum_acc_with_zero_salesforce_acc.csv","platinum_acc_with_zero_salesforce_acc.csv","de_example.json","10","PREPARED","",""

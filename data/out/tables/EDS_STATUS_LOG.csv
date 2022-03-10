@@ -1,0 +1,2 @@
+LOG_UUID,DE_GROUP,DE_NAME,CSV_FILE_NAME,ZIP_FILE_NAME,JSON_FILE_NAME,ROW_CNT,STATUS,RETURN_CODE,LAST_CHANGE_DATETIME
+asdasd,aaa,test1,platinum_acc_with_zero_salesforce_acc.csv,platinum_acc_with_zero_salesforce_acc.csv,de_example.json,10,OK,200,2022-03-02T08:06:57.992338

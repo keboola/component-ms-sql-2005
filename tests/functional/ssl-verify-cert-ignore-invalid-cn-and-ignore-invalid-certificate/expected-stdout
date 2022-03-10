@@ -1,1 +1,0 @@
-Connecting to DSN 'sqlsrv:Server=mssql-ssl-invalid-cn,1433;Database=test;Encrypt=true;TrustServerCertificate=false'
