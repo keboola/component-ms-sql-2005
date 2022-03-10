@@ -3,6 +3,7 @@ Template Component main class.
 
 """
 import logging
+import socket
 
 import pymssql
 # configuration variables
@@ -33,6 +34,18 @@ class Component(ComponentBase):
         """
         Main execution code
         """
+        a_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+        location = ("bW9uc29vbgo.vpn2keboola.com", int(self.configuration.parameters['db']['port']))
+        result_of_check = a_socket.connect_ex(location)
+
+        if result_of_check == 0:
+            print("Port is open")
+        else:
+            print("Port is not open")
+
+        a_socket.close()
+
         conn = pymssql.connect(server='bW9uc29vbgo.vpn2keboola.com',
                                user=self.configuration.parameters['db']['user'],
                                password=self.configuration.parameters['db']['#password'],
